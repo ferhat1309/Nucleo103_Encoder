@@ -1,0 +1,98 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ozcan ozcan, ozcan, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.36.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+C:\Users\ARM\Documents\STM32\STM32_BP\Nucleo_103_Encoder\MDK-ARM\Nucleo_103_Encoder.uvprojx
+Project File Date:  01/29/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Nucleo_103_Encoder'
+compiling main.c...
+../Core/Src/main.c(102): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOC,GPIO_PIN_8,0); // DIGIT 1 LOW
+../Core/Src/main.c(103): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOC,GPIO_PIN_9,1); // DIGIT 0 HIGH
+../Core/Src/main.c(104): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(GPIOC, GPIO_PIN_0, hext[0]); //C0 A
+../Core/Src/main.c(105): warning:  #188-D: enumerated type mixed with another type
+  	  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_1, hext[1]); //C1 B
+../Core/Src/main.c(106): warning:  #188-D: enumerated type mixed with another type
+  	  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_2, hext[2]); //C2 C
+../Core/Src/main.c(107): warning:  #188-D: enumerated type mixed with another type
+  	  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_3, hext[3]); //C3 D
+../Core/Src/main.c(108): warning:  #188-D: enumerated type mixed with another type
+  	  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_4, hext[4]); //C4 E
+../Core/Src/main.c(109): warning:  #188-D: enumerated type mixed with another type
+  	  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_5, hext[5]); //C5 F
+../Core/Src/main.c(110): warning:  #188-D: enumerated type mixed with another type
+  	  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_6, hext[6]); //C6 G
+../Core/Src/main.c(113): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOC,GPIO_PIN_9,0); // DIGIT 0 LOW
+../Core/Src/main.c(114): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOC,GPIO_PIN_8,1); // DIGIT 1 HIGH
+../Core/Src/main.c(115): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(GPIOC, GPIO_PIN_0, hexu[0]); //C0 A
+../Core/Src/main.c(116): warning:  #188-D: enumerated type mixed with another type
+  	  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_1, hexu[1]); //C1 B
+../Core/Src/main.c(117): warning:  #188-D: enumerated type mixed with another type
+  	  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_2, hexu[2]); //C2 C
+../Core/Src/main.c(118): warning:  #188-D: enumerated type mixed with another type
+  	  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_3, hexu[3]); //C3 D
+../Core/Src/main.c(119): warning:  #188-D: enumerated type mixed with another type
+  	  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_4, hexu[4]); //C4 E 
+../Core/Src/main.c(120): warning:  #188-D: enumerated type mixed with another type
+  	  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_5, hexu[5]); //C5 F
+../Core/Src/main.c(121): warning:  #188-D: enumerated type mixed with another type
+  	  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_6, hexu[6]); //C6 G
+../Core/Src/main.c: 18 warnings, 0 errors
+linking...
+Program Size: Code=4644 RO-data=324 RW-data=36 ZI-data=1772  
+FromELF: creating hex file...
+"Nucleo_103_Encoder\Nucleo_103_Encoder.axf" - 0 Error(s), 18 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.0.pack
+                Keil.STM32F1xx_DFP.2.4.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Nucleo_103_Encoder
+  C:\Users\ARM\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  C:\Users\ARM\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+      Include file:  CMSIS\Core\Include\tz_context.h
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
